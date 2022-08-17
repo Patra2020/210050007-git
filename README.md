@@ -8,7 +8,7 @@
 
 -A **hash function** is any function that can be used to map data of arbitrary size to fixed-size values.There are various hashing functions and they are chosen such that _collision_, that is, same hash values for multiple input data  is avoided.
 
--One of the most common hash functions is the _polynomial accumulation_ followed by _compression maps_:
+-One of the most common hash functions is the **_polynomial accumulation_** followed by **_compression maps_**:
   
    _h</sub>(x) = ( a<sub>o</sub> x + a<sub>1</sub>x + a<sub>2</sub>x<sup>2</sup> + ... + a<sub>n</sub>x<sup>n</sup> ) % m_,
    
