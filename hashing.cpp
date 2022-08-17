@@ -1,8 +1,8 @@
 #include "hashing.hpp"
 
-int hash_string(string s) {
+int hash_string(string s,int m) {
     // implement hashing function here
-    int m = 7,sum = 0,p=97;
+    int sum = 0,p=97;
     for(int i = 0;i< s.size();i++){
         sum = (sum*p + s[i])%m;
     }
