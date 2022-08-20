@@ -1,5 +1,4 @@
 FIXME
-
 #include <iostream>
 #include <string>
 #include "hashing.hpp"
