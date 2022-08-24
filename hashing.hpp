@@ -1,6 +1,6 @@
 #ifndef _HASHING
 #define _HASHING
-
+hi
 #include <iostream>
 #include <string>
 
